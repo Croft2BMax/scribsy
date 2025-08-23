@@ -3,6 +3,7 @@ import shutil
 from pathlib import Path
 from PyPDF2 import PdfReader
 
+#nyalain venv: .\venv\Scripts\activate
 #jalanin server: uvicorn main:app --reload
 #cek di browser: http://127.0.0.1:8000
 #upload: http://127.0.0.1:8000/docs
