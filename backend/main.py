@@ -3,8 +3,9 @@ import shutil
 from pathlib import Path
 from PyPDF2 import PdfReader
 
+#jalanin server: uvicorn main:app --reload
 #cek di browser: http://127.0.0.1:8000
-# upload: http://127.0.0.1:8000/docs
+#upload: http://127.0.0.1:8000/docs
 
 app = FastAPI()
 
